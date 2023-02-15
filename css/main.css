@@ -8,6 +8,10 @@ h1, h2 {
     color: #f1efef;
 }
 
+.content, .hero, .main-header, .gallery > * {
+    will-change: transform;
+}
+
 :root {
     --index: calc(1vw + 1vh);
     --gallery-gap: calc(var(--index) * 10)
@@ -75,7 +79,7 @@ body {
 }
 
 .text-block_h {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5em;
 }
 
